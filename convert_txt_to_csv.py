@@ -24,10 +24,10 @@ def parse_job_data(text):
 output_file_path = 'output_r.csv'
 
 # Headers for CSV file
-headers = ['Title', 'Location', 'Industry', 'Job Type',"Company Overview","Salary","Contract","Duty Time","IT Skills",'Education', "Qualifications",'Experience', 'Job Description', 'Specific qualifications', 'Skills Required', 'Related Jobs','Physical Fitness','SKILLS','Technical Skills', 'Related Job','Communication Skills', 'Technical Skills'"Related Job", "Work type","Responsibilities","Requirements","Job description","Candidate Requirements"]
+headers = ['Title', 'Job Offer Link','COMPANY', "LOCATION", "JOB DESCRIPTION / ROLE","REQUIREMENTS", "ABOUT THE COMPANY", 'Other jobs you might be interested in', "Salary"]
 
 # Directory path
-dir_path = './Gulfjob-text-data'
+dir_path = './data-filtered'
 
 # Open the output file and write the header
 with open(output_file_path, 'w', newline='', encoding='utf-8') as csv_file:
