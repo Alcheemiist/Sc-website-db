@@ -21,7 +21,7 @@ def parse_job_data(text):
     return job_data
 
 # File paths
-output_file_path = 'output_r.csv'
+output_file_path = 'GulfTalent-Job-Offers.csv'
 
 # Headers for CSV file
 headers = ['Title', 'Job Offer Link','COMPANY', "LOCATION", "JOB DESCRIPTION / ROLE","REQUIREMENTS", "ABOUT THE COMPANY", 'Other jobs you might be interested in', "Salary"]
